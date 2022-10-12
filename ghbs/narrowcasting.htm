@@ -3,11 +3,19 @@
   <title>GHBS Narrowcasting</title>
   <META http-equiv="refresh" content="5">
   <style>
-  * { margin:0; padding:0;}
-  body { overflow: hidden; cursor: none; }
+    * { margin:0; padding:0;}
+    body { overflow: hidden; cursor: none; }
+    .responsive-google-slides iframe {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      border:0;
+    }
   </style>
 </head>
 <body>
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHCE87imVCrWxb3PVjB9aitiK9E3BqvgQ-rGWczrj_iJbhWmhiXAFocTBk4NPERIWWWj-8fe1phSoi/embed?start=true&loop=true&delayms=3000&rm=minimal" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <div class="responsive-google-slides">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHCE87imVCrWxb3PVjB9aitiK9E3BqvgQ-rGWczrj_iJbhWmhiXAFocTBk4NPERIWWWj-8fe1phSoi/embed?start=true&loop=true&delayms=3000&rm=minimal" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
 </body>
 </html>
